@@ -56,7 +56,7 @@ git clone https://github.com/TurnipRadish/Cubillusion.git
 
 运行Minecraft Java版1.21.6或者以上的版本。
 
-在你的Minecraft游戏文件夹`.minecraft`中，找到`saves`文件夹，将包装了该项目全部文佳的包装文件夹放入其中。如果这一步正确执行，那么你将能够在游戏中看到该存档并可正常进入游戏。
+在你的Minecraft游戏文件夹`.minecraft`中，找到`saves`文件夹，将项目文件夹放入其中。如果这一步正确执行，那么你将能够在游戏中看到该存档并可正常进入游戏。
 
 使用VSCode，双击项目中的`cubi_workspace.code-workspace`文件，如果该文件工作正常，则将在VSCode中打开该项目的主要工作区。
 
