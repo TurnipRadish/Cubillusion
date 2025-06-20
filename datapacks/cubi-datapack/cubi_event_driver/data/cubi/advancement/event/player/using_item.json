@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "cubi:triticin": {
+      "trigger": "using_item",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "cubi:event/player/using_item"
+  }
+}

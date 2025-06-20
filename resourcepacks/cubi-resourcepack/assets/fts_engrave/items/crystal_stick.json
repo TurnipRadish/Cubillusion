@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "model",
+          "model": "fts_engrave:item/crystal_stick/gui"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "fts_engrave:item/crystal_stick/handheld"
+    }
+  }
+}

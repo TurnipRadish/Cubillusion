@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "cubi:triticin": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "id": "cubi:melt_box"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cubi:item/melt_box/consumed"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "function": "copy_custom_data",
+    "source": {
+      "type": "context",
+      "target": "this"
+    },
+    "ops": [
+      {
+        "op": "replace",
+        "source": "item",
+        "target": "output.item"
+      }
+    ]
+  }
+]

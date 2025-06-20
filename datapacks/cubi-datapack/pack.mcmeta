@@ -1,0 +1,31 @@
+{
+  "pack": {
+    "description": [
+      "",
+      { "text": "§a幻§c方§e印§b象\n" },
+      { "text": "Cubillusion Fantasies" }
+    ],
+    "pack_format": 80,
+    "supported_formats": [71, 100]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "cubi_base",
+        "formats": 80
+      },
+      {
+        "directory": "cubi_event_driver",
+        "formats": 80
+      },
+      {
+        "directory": "cubi_interface",
+        "formats": 80
+      },
+      {
+        "directory": "cubi_test",
+        "formats": 80
+      }
+    ]
+  }
+}

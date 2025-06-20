@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_data": {
+                  "id": "cubi:glass_jar"
+                },
+                "item_name": {
+                  "translate": "item.cubi.glass_jar"
+                },
+                "item_model": "cubi:glass_jar",
+                "consumable": {
+                  "animation": "eat",
+                  "consume_seconds": 0.5
+                },
+                "use_cooldown": {
+                  "seconds": 1.0,
+                  "cooldown_group": "cubi:glass_jar"
+                },
+                "damage": 0,
+                "max_damage": 16,
+                "max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

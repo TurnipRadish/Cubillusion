@@ -1,0 +1,46 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "charged",
+        "model": {
+          "type": "select",
+          "property": "display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "model",
+                "model": "fts_engrave:item/crystal_stick/gui_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "fts_engrave:item/crystal_stick/handheld_charged"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "select",
+      "property": "display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "model",
+            "model": "fts_engrave:item/crystal_stick/gui"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "fts_engrave:item/crystal_stick/handheld"
+      }
+    }
+  }
+}

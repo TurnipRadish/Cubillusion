@@ -1,0 +1,13 @@
+use ::java::util::text::Text
+use ::java::world::item::ItemStack
+
+struct MyQuest {
+	type: string,
+	prompt: Text,
+	/// The item given to the player when completing the quest.
+	reward_item?: ItemStack,
+}
+
+dispatch minecraft:storage[example:quests] to struct QuestsStorage {
+	available: [MyQuest],
+}

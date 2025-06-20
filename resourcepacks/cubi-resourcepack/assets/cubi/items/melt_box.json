@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "cubi:item/melt_box"
+    },
+    "cases": [
+      {
+        "when": "apple",
+        "model": {
+          "type": "model",
+          "model": "cubi:item/melt_box/apple"
+        }
+      }
+    ]
+  }
+}

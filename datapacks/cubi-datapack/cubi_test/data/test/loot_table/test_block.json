@@ -1,0 +1,47 @@
+{
+  "functions": [
+    {
+      "function": "set_custom_data",
+      "tag": {
+        "id": "cubi:cubi_crafter",
+        "cubi:fake_block": true
+      }
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "entity_data": {
+          "id": "item_frame",
+          "Invisible": true,
+          "Fixed": true,
+          "Item": {
+            "id": "stone",
+            "components": {
+              "item_model": "cubi:cubi_crafter"
+            }
+          },
+          "data": {
+            "id": "cubi:vase"
+          }
+        }
+      }
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "item_model": "cubi:cubi_crafter"
+      }
+    }
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "item_frame"
+        }
+      ]
+    }
+  ]
+}

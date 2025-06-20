@@ -1,0 +1,52 @@
+{
+  "type": "crafting_shaped",
+  "key": {
+    "#": "gold_ingot",
+    "/": "blaze_rod",
+    "O": "amethyst_shard"
+  },
+  "pattern": [
+    "  O",
+    " # ",
+    "/  "
+  ],
+  "result": {
+    "id": "stick",
+    "components": {
+      "item_model": "fts_engrave:crystal_stick",
+      "item_name": {
+        "translate": "item.ftsegrv.crystal_stick"
+      },
+      "attribute_modifiers": [
+        {
+          "id": "ftsegrv:add_magic_value",
+          "amount": 0,
+          "operation": "add_value",
+          "type": "attack_damage",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": [
+              {
+                "translate": "attribute.ftsegrv.magic_value"
+              }
+            ]
+          }
+        }
+      ],
+      "rarity": "uncommon",
+      "consumable": {
+        "animation": "block",
+        "consume_seconds": 1000000,
+        "has_consume_particles": false,
+        "sound": "block.note_block.pling"
+      },
+      "custom_data": {
+        "id":"ftsegrv:crystal_stick",
+        "ftsegrv:event": {
+          "using_item": true
+        }
+      }
+    }
+  }
+}

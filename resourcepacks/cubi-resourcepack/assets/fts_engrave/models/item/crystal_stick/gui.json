@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "fts_engrave:item/crystal_stick/gui"
+    }
+}

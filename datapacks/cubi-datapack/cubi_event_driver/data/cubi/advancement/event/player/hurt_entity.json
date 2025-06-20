@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "cubi:triticin": {
+      "trigger": "player_hurt_entity",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "cubi:event/player/hurt_entity"
+  }
+}

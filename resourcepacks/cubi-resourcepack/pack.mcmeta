@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "description": [
+      "",
+      { "text": "§a幻§c方§e印§b象\n" },
+      { "text": "Cubillusion Fantasies" }
+    ],
+    "pack_format": 63,
+    "supported_formats": [63, 100]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "example_random_plants",
+        "formats": [63, 100]
+      }
+    ]
+  }
+}

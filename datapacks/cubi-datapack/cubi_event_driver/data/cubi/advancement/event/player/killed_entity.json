@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "cubi:triticin": {
+      "trigger": "player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "cubi:event/player/killed_entity"
+  }
+}

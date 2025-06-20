@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ftsegrv": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "ftsegrv:event": {
+                "using_item": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fts_engrave:event/using_item"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_data": {
+                  "id": "cubi:melt_box"
+                },
+                "item_name": {
+                  "translate": "item.cubi.melt_box"
+                },
+                "item_model": "cubi:melt_box",
+                "consumable": {
+                  "animation": "eat",
+                  "consume_seconds": 0.5
+                },
+                "use_cooldown": {
+                  "seconds": 1.0,
+                  "cooldown_group": "cubi:melt_box"
+                },
+                "damage": 0,
+                "max_damage": 16,
+                "max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

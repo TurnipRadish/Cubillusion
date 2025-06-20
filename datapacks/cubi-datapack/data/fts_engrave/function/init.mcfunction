@@ -1,0 +1,1 @@
+tellraw @a "Fantasy Engrave - Prism Decree - Activated!"

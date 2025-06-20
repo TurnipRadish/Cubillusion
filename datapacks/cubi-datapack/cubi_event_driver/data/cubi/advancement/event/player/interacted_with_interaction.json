@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "cubi:triticin": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cubi:event/player/interacted_with_interaction"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "enchantments": {
+        "cubi:event/stop_using_item": 1
+      },
+      "custom_data": {
+        "cubi:args": {
+          "function": "test:shoot_test"
+        }
+      }
+    }
+  }
+]

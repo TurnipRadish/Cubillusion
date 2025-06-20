@@ -1,0 +1,7 @@
+{
+  "parent": "example:block/decorated_cross",
+  "textures": {
+    "cross": "example:block/short_grass/medium",
+    "decoration": "example:block/short_grass/white_flower"
+  }
+}

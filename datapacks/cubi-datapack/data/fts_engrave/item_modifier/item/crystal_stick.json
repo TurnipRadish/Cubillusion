@@ -1,0 +1,50 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "fts_engrave:crystal_stick/default",
+      "item_name": {
+        "translate": "item.ftsegrv.crystal_stick"
+      },
+      "custom_model_data": {
+        "strings": []
+      },
+      "attribute_modifiers": [
+        {
+          "id": "ftsegrv:add_magic_value",
+          "amount": 0,
+          "operation": "add_value",
+          "type": "attack_damage",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": [
+              {
+                "text": " "
+              },
+              {
+                "text": "1 "
+              },
+              {
+                "translate": "attribute.ftsegrv.magic_value"
+              }
+            ]
+          }
+        }
+      ],
+      "rarity": "uncommon",
+      "consumable": {
+        "animation": "spear",
+        "consume_seconds": 1000000,
+        "has_consume_particles": false,
+        "sound": "block.note_block.pling"
+      },
+      "custom_data": {
+        "id":"ftsegrv:crystal_stick",
+        "ftsegrv:event": {
+          "using_item": true
+        }
+      }
+    }
+  }
+]

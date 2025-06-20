@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/short_grass", "weight": 10
+      },
+      {
+        "model": "example:block/short_grass/low", "weight": 10
+      },
+      {
+        "model": "example:block/short_grass/medium", "weight": 10
+      },
+      {
+        "model": "example:block/short_grass/tall", "weight": 10
+      },
+      {
+        "model": "example:block/short_grass/floriferous", "weight": 1
+      }
+    ]
+  }
+}

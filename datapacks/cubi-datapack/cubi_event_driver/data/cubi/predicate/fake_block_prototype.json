@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "predicates": {
+        "custom_data": {
+          "cubi:fake_block": true
+        }
+      }
+    }
+  }
+]

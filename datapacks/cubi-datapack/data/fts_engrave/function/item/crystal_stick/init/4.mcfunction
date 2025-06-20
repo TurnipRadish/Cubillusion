@@ -1,0 +1,1 @@
+scoreboard players reset @s item_using_time
