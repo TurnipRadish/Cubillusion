@@ -1,0 +1,1 @@
+$execute positioned ~ ~$(height) ~ run function pinecone:private/interact/sit/check_summon

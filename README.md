@@ -6,6 +6,10 @@
 * Minecraft环境：Java原版1.21.6及以上。
 * 开发交流QQ群：830241458
 
+## 内置包
+
+* 松果核：[https://github.com/Acappellia/pinecone]
+
 ## 项目结构
 
 本项目整体为一个Minecraft Java版存档。其中主要的开发目录为`datapacks`和`resourcepacks`，其他文件则可能均为游戏自动生成的文件或为开发环境提供便利的文件。

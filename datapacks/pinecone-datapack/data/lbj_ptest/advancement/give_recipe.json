@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "auto": {
+      "trigger": "location"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "lbj_ptest:keyboard",
+      "lbj_ptest:keyboard_creative",
+      "lbj_ptest:speaker",
+      "lbj_ptest:speaker_creative",
+      "lbj_ptest:garden_lantern",
+      "lbj_ptest:garden_lantern_creative",
+      "lbj_ptest:test",
+      "lbj_ptest:test_creative"
+    ]
+  }
+}

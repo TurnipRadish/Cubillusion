@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "model",
+    "model": "lbj_ptest:pinecone/test",
+    "tints": [
+      {
+        "type": "dye",
+        "default": -1
+      }
+    ]
+  }
+}

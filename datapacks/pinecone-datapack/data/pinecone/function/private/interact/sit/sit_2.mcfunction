@@ -1,0 +1,1 @@
+ride @p[distance=..7,tag=fur_user] mount @s

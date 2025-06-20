@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "pinecone:private/init",
+      "required": true
+    },
+    {
+      "id": "#load:_private/load",
+      "required": false
+    },
+    {
+      "id": "lbj_ptest:private/init",
+      "required": false
+    }
+  ]
+}

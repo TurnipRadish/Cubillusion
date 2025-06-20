@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "building",
+  "ingredient": "hay_block",
+  "result": {
+    "count": 1,
+    "id": "stick",
+    "components": {
+      "minecraft:item_name": "测试家具",
+      "minecraft:item_model": "lbj_ptest:test",
+      "minecraft:custom_data": {
+        "pinecone_fur": 1
+      },
+      "consumable": {
+        "animation": "none",
+        "consume_seconds": 1000000,
+        "has_consume_particles": false
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      },
+      "max_stack_size": 64
+    }
+  }
+}

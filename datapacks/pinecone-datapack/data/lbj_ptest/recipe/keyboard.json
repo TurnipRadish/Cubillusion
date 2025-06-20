@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "building",
+  "ingredient": "hay_block",
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_horse_armor",
+    "components": {
+      "minecraft:item_name": "电子琴",
+      "minecraft:item_model": "lbj_ptest:keyboard",
+      "minecraft:custom_data": {
+        "pinecone_fur": 1
+      },
+      "consumable": {
+        "animation": "none",
+        "consume_seconds": 1000000,
+        "has_consume_particles": false
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      },
+      "max_stack_size": 64
+    }
+  }
+}

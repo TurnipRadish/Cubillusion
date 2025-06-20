@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "glow_lichen",
+        "sculk_vein",
+        "hanging_roots",
+        "light",
+        "barrier"
+    ]
+}

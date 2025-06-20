@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "model",
+    "model": "lbj_ptest:pinecone/speaker",
+    "tints": [
+      {
+        "type": "dye",
+        "default": -1
+      }
+    ]
+  }
+}
