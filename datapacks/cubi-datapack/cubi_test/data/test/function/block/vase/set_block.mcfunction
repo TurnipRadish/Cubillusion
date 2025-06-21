@@ -6,8 +6,6 @@ data modify storage cubi:data args.list[-1].uuid set from entity @p[distance=..0
 data modify storage cubi:data args.list append value {name:"body"}
 data modify storage cubi:data args.list[-1].uuid set from entity @s UUID
 
-execute at @s align xyz positioned ~0.5 ~1.5 ~0.5 summon item_display run function test:block/vase/set_block/set_plant
+execute at @s align xyz positioned ~ ~1 ~ summon block_display run function test:block/vase/set_block/set_plant
 
 execute at @s align xyz positioned ~0.5 ~ ~0.5 summon interaction run function test:block/vase/set_block/set_interaction
-
-

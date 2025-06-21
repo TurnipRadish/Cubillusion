@@ -31,5 +31,5 @@ data modify storage pinecone:fur_data "lbj_ptest:test" set value {\
 transfer:{},\
 placement:{bounding_box:[1.01,1.01]},\
 item_data:{id:"stick",count:1,components:{item_model:"lbj_ptest:test",item_name:"测试家具",consumable:{animation:"none",consume_seconds:1000000,has_consume_particles:0b}}},\
-interaction:{is_seat:1b},\
-auto:{}}
+interaction:{is_seat:1b,is_shake:1b},\
+auto:{rotate_left:1b}}

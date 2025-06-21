@@ -23,6 +23,14 @@
         "formats": 80
       },
       {
+        "directory": "cubi_item",
+        "formats": 80
+      },
+      {
+        "directory": "cubi_player",
+        "formats": 80
+      },
+      {
         "directory": "cubi_test",
         "formats": 80
       }

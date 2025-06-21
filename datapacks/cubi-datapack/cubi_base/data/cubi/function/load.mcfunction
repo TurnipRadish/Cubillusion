@@ -2,6 +2,7 @@ scoreboard objectives add var dummy
 scoreboard objectives add gamemode dummy
 
 scoreboard players set #cubi.raycast_loop_times var 0
+scoreboard players set #2 var 2
 
 data modify storage cubi:data modify set value {\
   input: {},\
@@ -14,4 +15,6 @@ execute unless entity @n[tag=cubi.item_handler] run summon item 0 0 0 {Tags:["cu
 
 tellraw @a "cubi: loaded"
 
-execute unless entity @p run schedule function cubi:load 1s
+execute unless entity @p run return run schedule function cubi:load 1s
+
+function cubi:event/load
