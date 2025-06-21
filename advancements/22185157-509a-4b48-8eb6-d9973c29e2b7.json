@@ -704,5 +704,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-06-21 09:57:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-06-21 09:57:08 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4435
 }

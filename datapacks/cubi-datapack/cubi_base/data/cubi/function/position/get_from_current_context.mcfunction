@@ -1,0 +1,1 @@
+execute at @s summon marker run function cubi:position/get_from_src_entity
