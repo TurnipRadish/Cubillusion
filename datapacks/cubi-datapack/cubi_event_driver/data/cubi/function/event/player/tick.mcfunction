@@ -13,4 +13,14 @@ scoreboard players operation #temp var = @s cubi.player_selected_slot
 scoreboard players operation #temp var -= @s cubi.player_selected_last_slot
 execute unless score #temp var matches 0 run function cubi:event/player/changing_hotbar
 scoreboard players operation @s cubi.player_selected_last_slot = @s cubi.player_selected_slot
+## 移动距离监听
+scoreboard players operation #temp var = @s cubi.player_walk
+scoreboard players operation #temp var -= @s cubi.player_walk_last
+execute unless score #temp var matches 0 run function cubi:event/player/walking
+scoreboard players operation @s cubi.player_walk_last = @s cubi.player_walk
+
+scoreboard players operation #temp var = @s cubi.player_sprint
+scoreboard players operation #temp var -= @s cubi.player_sprint_last
+execute unless score #temp var matches 0 run function cubi:event/player/sprinting
+scoreboard players operation @s cubi.player_sprint_last = @s cubi.player_sprint
 # 事件触发 - 结束
