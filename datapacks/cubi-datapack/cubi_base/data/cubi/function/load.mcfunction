@@ -3,6 +3,7 @@ scoreboard objectives add gamemode dummy
 
 scoreboard players set #cubi.raycast_loop_times var 0
 scoreboard players set #2 var 2
+scoreboard players set #3 var 3
 
 data modify storage cubi:data modify set value {\
   input: {},\
