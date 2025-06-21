@@ -2,7 +2,7 @@
 
 ## 切换游泳姿态
 
-若玩家具有标签`cubi.player.enable_auto_swim`，则当玩家同时输入潜行和疾跑操作时，玩家会自动变为游泳姿态。
+若玩家具有标签`cubi.player.auto_swim`，则当玩家同时输入潜行和疾跑操作时，玩家会自动变为游泳姿态。
 
 ![alt text](<Cubi Player Auto Swim.gif>)
 
