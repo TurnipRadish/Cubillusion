@@ -3,4 +3,5 @@ execute if predicate {condition:"entity_properties", entity:"this", predicate:{p
 
 # 事件触发 - 结束
 
-data modify entity @s data.'cubi:fake_block' set value false
+# data modify entity @s data.'cubi:fake_block' set value false
+return 1

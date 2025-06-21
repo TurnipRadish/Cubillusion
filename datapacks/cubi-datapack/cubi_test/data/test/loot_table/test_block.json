@@ -3,8 +3,7 @@
     {
       "function": "set_custom_data",
       "tag": {
-        "id": "cubi:cubi_crafter",
-        "cubi:fake_block": true
+        "id": "cubi:cubi_crafter"
       }
     },
     {
@@ -20,6 +19,9 @@
               "item_model": "cubi:cubi_crafter"
             }
           },
+          "Tags": [
+            "cubi.fake_block"
+          ],
           "data": {
             "id": "cubi:vase"
           }
