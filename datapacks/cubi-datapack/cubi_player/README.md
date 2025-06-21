@@ -2,11 +2,15 @@
 
 ## 切换游泳姿态
 
+来源视频：https://www.bilibili.com/video/BV13RNsznEGC/
+
 若玩家具有标签`cubi.player.auto_swim`，则当玩家同时输入潜行和疾跑操作时，玩家会自动变为游泳姿态。
 
 ![alt text](<Cubi Player Auto Swim.gif>)
 
 ## 改变移动量
+
+来源视频：https://www.bilibili.com/video/BV1iYbLeqE1U/
 
 对玩家执行函数：
 

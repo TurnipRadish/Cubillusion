@@ -23,4 +23,72 @@ scoreboard players operation #temp var = @s cubi.player_sprint
 scoreboard players operation #temp var -= @s cubi.player_sprint_last
 execute unless score #temp var matches 0 run function cubi:event/player/sprinting
 scoreboard players operation @s cubi.player_sprint_last = @s cubi.player_sprint
+## 输入监听
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "forward": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/forward
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "backward": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/backward
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "left": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/left
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "right": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/right
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "jump": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/up
+## 测试 -飞行器
+execute as @e[tag=cubi.plane_body,distance=..64] run function test:plane/tick
 # 事件触发 - 结束

@@ -12,7 +12,7 @@ data modify storage cubi:data modify set value {\
 
 forceload add -16 -16 16 16
 
-execute unless entity @n[tag=cubi.item_handler] run summon item 0 0 0 {Tags:["cubi.item_handler"], Item:{id:"stone", components:{item_model:"minecraft:air"}}, NoGravity:true, PickupDelay:-1}
+execute unless entity @n[tag=cubi.item_handler] run summon item 0 0 0 {Tags:["cubi.item_handler"], Item:{id:"stone", components:{item_model:"minecraft:air"}}, NoGravity:true, PickupDelay:-1, Age:-32768s}
 
 tellraw @a "cubi: loaded"
 

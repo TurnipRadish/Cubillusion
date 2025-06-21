@@ -31,6 +31,10 @@
         "formats": 80
       },
       {
+        "directory": "cubi_entity",
+        "formats": 80
+      },
+      {
         "directory": "cubi_test",
         "formats": 80
       }

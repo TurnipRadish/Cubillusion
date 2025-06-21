@@ -1,0 +1,38 @@
+{
+  "functions": [
+    {
+      "function": "set_custom_data",
+      "tag": {
+        "id": "cubi:plane"
+      }
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "entity_data": {
+          "id": "item_frame",
+          "Tags": [
+            "cubi.fake_block"
+          ]
+        }
+      }
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "item_model": "cubi:plane"
+      }
+    }
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "item_frame"
+        }
+      ]
+    }
+  ]
+}
