@@ -1,0 +1,1 @@
+$summon $(id) ~ ~ ~ $(nbt)

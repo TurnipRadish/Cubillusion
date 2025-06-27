@@ -1,0 +1,14 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"cubi": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/cubi/bone.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/cubi/bone.json",
+				"assets/animated_java/models/empty.json"
+			]
+		}
+	}
+}

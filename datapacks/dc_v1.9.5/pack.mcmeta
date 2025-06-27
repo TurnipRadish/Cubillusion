@@ -1,0 +1,14 @@
+{
+   "pack": {
+      "pack_format": 48,
+      "description": "Created by CR_019,LAY Studio"
+   },
+   "overlays": {
+        "entries": [
+            {
+                "directory": "v1215",
+                "formats": [71, 1000]
+            }
+        ]
+    }
+}

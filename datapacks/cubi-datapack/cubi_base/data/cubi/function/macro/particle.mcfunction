@@ -1,0 +1,1 @@
+$particle end_rod $(x) $(y) $(z) 0 0 0 0 1

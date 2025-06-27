@@ -1,0 +1,22 @@
+{
+	"pack": {
+		"pack_format": 55,
+		"description": [
+			"",
+			{
+				"text": "§a幻§c方§e印§b象 - AJ动画包\n"
+			},
+			{
+				"text": "Cubillusion Fantasies"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "example_random_plants",
+				"formats": [63, 100]
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "plane_engine": {
+    "sounds": [
+      {
+        "name": "cubi:split",
+        "type": "file",
+        "volume": 0.55,
+        "weight": 10
+      }
+    ]
+  }
+}

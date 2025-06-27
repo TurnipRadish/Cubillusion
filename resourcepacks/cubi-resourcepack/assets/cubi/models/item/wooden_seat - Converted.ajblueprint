@@ -1,0 +1,556 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.7.3",
+		"uuid": "7c151a04-40ad-9b82-0282-ba738e13a402",
+		"save_location": "D:\\MC\\.minecraft\\resourcepacks\\cubi-rp\\assets\\cubi\\models\\item\\wooden_seat - Converted.ajblueprint",
+		"last_used_export_namespace": "cubi"
+	},
+	"blueprint_settings": {
+		"export_namespace": "cubi",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_versions": ["1.21.5"],
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "D:\\MC\\.minecraft\\resourcepacks\\aj-rp",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "D:\\MC\\.minecraft\\saves\\对话框25w21a\\datapacks\\aj-datapack",
+		"summon_commands": "",
+		"remove_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 64,
+		"height": 64
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, -7],
+			"to": [-4, 6, -5],
+			"autouv": 0,
+			"color": 8,
+			"rotation": [22.5, 0, 0],
+			"origin": [-5, 3, -6],
+			"uv_offset": [0, 28],
+			"faces": {
+				"north": {
+					"uv": [2, 30, 4, 36],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 30, 2, 36],
+					"texture": 0
+				},
+				"south": {
+					"uv": [6, 30, 8, 36],
+					"texture": 0
+				},
+				"west": {
+					"uv": [4, 30, 6, 36],
+					"texture": 0
+				},
+				"up": {
+					"uv": [4, 30, 2, 28],
+					"texture": 0
+				},
+				"down": {
+					"uv": [6, 28, 4, 30],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "f60ecb0d-7c96-2a1a-97cd-bbe5b00a06e0"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [4, 1, -8],
+			"to": [6, 7, -6],
+			"autouv": 0,
+			"color": 8,
+			"rotation": [22.5, 0, 0],
+			"origin": [4, 1, -8],
+			"uv_offset": [8, 28],
+			"faces": {
+				"north": {
+					"uv": [10, 30, 12, 36],
+					"texture": 0
+				},
+				"east": {
+					"uv": [8, 30, 10, 36],
+					"texture": 0
+				},
+				"south": {
+					"uv": [14, 30, 16, 36],
+					"texture": 0
+				},
+				"west": {
+					"uv": [12, 30, 14, 36],
+					"texture": 0
+				},
+				"up": {
+					"uv": [12, 30, 10, 28],
+					"texture": 0
+				},
+				"down": {
+					"uv": [14, 28, 12, 30],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "3d4c0245-200c-2729-d538-3c23bd6beb48"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, 3],
+			"to": [-4, 6, 5],
+			"autouv": 0,
+			"color": 8,
+			"rotation": [-22.5, 0, 0],
+			"origin": [-5, 3, 4],
+			"uv_offset": [28, 14],
+			"faces": {
+				"north": {
+					"uv": [30, 16, 32, 22],
+					"texture": 0
+				},
+				"east": {
+					"uv": [28, 16, 30, 22],
+					"texture": 0
+				},
+				"south": {
+					"uv": [34, 16, 36, 22],
+					"texture": 0
+				},
+				"west": {
+					"uv": [32, 16, 34, 22],
+					"texture": 0
+				},
+				"up": {
+					"uv": [32, 16, 30, 14],
+					"texture": 0
+				},
+				"down": {
+					"uv": [34, 14, 32, 16],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "95102c66-eb7d-252a-bea1-1ff1cd29cff1"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [4, 0, 5],
+			"to": [6, 6, 7],
+			"autouv": 0,
+			"color": 8,
+			"rotation": [-22.5, 0, 0],
+			"origin": [4, 0, 5],
+			"uv_offset": [16, 28],
+			"faces": {
+				"north": {
+					"uv": [18, 30, 20, 36],
+					"texture": 0
+				},
+				"east": {
+					"uv": [16, 30, 18, 36],
+					"texture": 0
+				},
+				"south": {
+					"uv": [22, 30, 24, 36],
+					"texture": 0
+				},
+				"west": {
+					"uv": [20, 30, 22, 36],
+					"texture": 0
+				},
+				"up": {
+					"uv": [20, 30, 18, 28],
+					"texture": 0
+				},
+				"down": {
+					"uv": [22, 28, 20, 30],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "2ce2a0b1-8872-1dc3-c606-3e7bc018d968"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 5, -6],
+			"to": [6, 7, 6],
+			"autouv": 0,
+			"color": 1,
+			"origin": [0, 6, 0],
+			"faces": {
+				"north": {
+					"uv": [12, 12, 24, 14],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 12, 12, 14],
+					"texture": 0
+				},
+				"south": {
+					"uv": [36, 12, 48, 14],
+					"texture": 0
+				},
+				"west": {
+					"uv": [24, 12, 36, 14],
+					"texture": 0
+				},
+				"up": {
+					"uv": [24, 12, 12, 0],
+					"texture": 0
+				},
+				"down": {
+					"uv": [36, 0, 24, 12],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "dc39b03a-edc5-cfd0-b65d-fe53aed5729b"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 7, -6],
+			"to": [6, 19, -4],
+			"autouv": 0,
+			"color": 4,
+			"origin": [0, 13, -5],
+			"uv_offset": [0, 14],
+			"faces": {
+				"north": {
+					"uv": [2, 16, 14, 28],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 16, 2, 28],
+					"texture": 0
+				},
+				"south": {
+					"uv": [16, 16, 28, 28],
+					"texture": 0
+				},
+				"west": {
+					"uv": [14, 16, 16, 28],
+					"texture": 0
+				},
+				"up": {
+					"uv": [14, 16, 2, 14],
+					"texture": 0
+				},
+				"down": {
+					"uv": [26, 14, 14, 16],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "a987fb5d-3785-2a73-6a63-5722e0fc4793"
+		}
+	],
+	"outliner": [
+		{
+			"name": "bone",
+			"origin": [0, 5.25721, -1.35871],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "5cc62c61-7a8c-ae3f-0397-4dd7b48f865f",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"f60ecb0d-7c96-2a1a-97cd-bbe5b00a06e0",
+				"3d4c0245-200c-2729-d538-3c23bd6beb48",
+				"95102c66-eb7d-252a-bea1-1ff1cd29cff1",
+				"2ce2a0b1-8872-1dc3-c606-3e7bc018d968",
+				"dc39b03a-edc5-cfd0-b65d-fe53aed5729b",
+				"a987fb5d-3785-2a73-6a63-5722e0fc4793"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "D:\\MC\\.minecraft\\saves\\对话框25w21a\\resourcepacks\\cubi-resourcepack\\assets\\cubi\\textures\\item\\wooden_seat.png",
+			"name": "wooden_seat.png",
+			"folder": "item",
+			"namespace": "cubi",
+			"id": "0",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": true,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": true,
+			"uuid": "c90e6d85-af90-ae45-3a32-b92acb137300",
+			"relative_path": "../../../../../../saves/对话框25w21a/resourcepacks/cubi-resourcepack/assets/cubi/textures/item/wooden_seat.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbxJREFUeF7tWTFKQ0EQ3Q+CQg7gh28hKHgFe8scIEfwMsZCK6ucwM5DiHUawcJAAl+wtbBSVpxPXAm7bz4sy+xLuzOZnTdv3s4kjQM/D8vVF+KymN8i5u5+cdVADiON4WAegPPTo6Swjy9r5wHoDtsk+81bTwDIALYANQDWpSSB2WEEB6MI8hXgM8g5oPpBCFHd4kfhi34Ozfbt8hLJ39093UD2e7N3yP7g5Bp+ybYDNNUDIGjk3vIknrRI7h1A8h7oUy0A0gLa3kZ7djrpfsCXeKIR8j1jexoSEOfcoAH+QsftJMn/tf8YxM1ffL87S/L73Dw7AkAGsAWoAVWLYG6Vj6lz9leAAIyc3WMVRc/JgO1JMMcgVHQLIPQJR9hU3+IACLfBXdtZbHuLnacClNvu3zZYHQDhNhhSO7a8xM5Lo3zIsD+vgD8kAL+/4cl+Hqtw7JwMKGzwYQsECFADcr+7pcUb9adCaclo7kMANKhZ8iEDLFVTkwsZoEHNkg8ZYKmamlzIAA1qlnzIAEvV1ORCBmhQs+RDBliqpiYXMkCDmiUfMsBSNTW5kAEa1Cz5kAGWqqnJhQzQoGbJ5xsIVQxfbIaoLAAAAABJRU5ErkJggg=="
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "f38bfd04-dc93-d3b1-0d43-4d7d51b0ec97",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "cc2319aa-cab0-d0c3-88ed-953fba8c05c9",
+			"name": "shake",
+			"loop": "once",
+			"override": false,
+			"length": 1,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"5cc62c61-7a8c-ae3f-0397-4dd7b48f865f": {
+					"name": "bone",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "-10",
+									"z": "0"
+								}
+							],
+							"uuid": "4d52be46-17e8-a47a-2910-2d5b0da980a8",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "5",
+									"z": "0"
+								}
+							],
+							"uuid": "4706707f-ded5-21eb-04fe-e54e915856b5",
+							"time": 0.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cbcc9f25-d034-ac77-23cb-6f7de917c29e",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "-2.5",
+									"z": "0"
+								}
+							],
+							"uuid": "342aba43-b666-391f-e24c-827995cd1507",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "c68aec44-f841-b416-e1f5-f51e5f94337c",
+							"time": 0.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "效果",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "function test:block/test/animation/shake/1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b79417a9-6560-bdc1-d516-d99b324ba4d9",
+							"time": 0.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "function test:block/test/animation/shake/0",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4dc33607-a799-dd1f-327b-6e46a15b190d",
+							"time": 0.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": [
+		{
+			"uuid": "d79e26ae-c3a9-256c-84bd-87265818130c",
+			"type": "animation_controller",
+			"name": "controller.animation.wooden_seat - Converted.new",
+			"selected": false,
+			"selected_state": null,
+			"saved": true,
+			"path": "",
+			"initial_state": "",
+			"states": [
+				{
+					"uuid": "b0e9fe4a-cb34-3a2e-a26a-e8d490c6c9fb",
+					"name": "default",
+					"animations": [
+						{
+							"uuid": "fd8222f5-61b2-60fe-57e7-c7558a550204",
+							"key": "shake",
+							"animation": "cc2319aa-cab0-d0c3-88ed-953fba8c05c9",
+							"blend_value": ""
+						}
+					],
+					"transitions": [
+						{
+							"uuid": "43471b2c-3793-a701-74f6-5122267d79f9",
+							"target": "",
+							"condition": "query.foo"
+						}
+					],
+					"sounds": [],
+					"particles": [],
+					"on_entry": "",
+					"on_exit": "say 1",
+					"blend_transition": 0,
+					"blend_transition_curve": {},
+					"blend_via_shortest_path": false
+				}
+			]
+		}
+	]
+}

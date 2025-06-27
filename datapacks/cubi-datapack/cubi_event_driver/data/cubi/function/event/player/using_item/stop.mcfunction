@@ -1,7 +1,14 @@
 title @s[tag=debug] actionbar "stop using item"
 
 # 事件触发 - 开始
-execute if items entity @s weapon.mainhand *[custom_data~{'cubi:event':{'cubi:stop_using_item':{listening: true}}}] run function cubi:event/run_function_with_weapon {event_type:'cubi:stop_using_item'}
+execute if items entity @s weapon.mainhand *[custom_data~\
+{\
+  'cubi:event_trigger':  {\
+    'cubi:using_item_stop': {\
+      enable: true\
+    }\
+  }\
+}] run function cubi:event/item/event_trigger/activate {id:'cubi:using_item_stop'}
 
 # 事件触发 - 结束
 

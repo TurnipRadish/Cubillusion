@@ -1,7 +1,7 @@
 data merge entity @s {\
   data:{id:'cubi:plane'},\
   Tags:["cubi.plane_body"],\
-  Invisible:true,\
+  Invisible:false,\
   NoGravity:false,\
   Silent:true,\
   Small:true,\

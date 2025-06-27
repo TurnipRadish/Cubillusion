@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"description": [
+			{
+				"text": "扩展家具包 - ",
+				"color": "gray"
+			},
+			{
+				"text": "lbj_ptest",
+				"color": "white"
+			},
+			{
+				"text": "\nPowered by Pinecone",
+				"color": "dark_gray",
+				"italic": true
+			}
+		]
+	}
+}

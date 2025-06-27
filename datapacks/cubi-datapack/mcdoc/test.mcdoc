@@ -11,3 +11,41 @@ struct MyQuest {
 dispatch minecraft:storage[example:quests] to struct QuestsStorage {
 	available: [MyQuest],
 }
+
+dispatch minecraft:storage[cubi:entity] to struct CubiEntityFactory {
+  children: [::java::world::entity::AnyEntity],
+  this: struct {
+    ...::java::world::entity::AnyEntity,
+    ...::java::world::entity::interaction::Interaction
+  }
+}
+
+// #[since="1.21.6"]
+// inject struct ::java::world::component::CustomData {
+//   cubi_flag: int
+// }
+
+#[since="1.21.6"]
+dispatch mcdoc:custom_data[cubi:event_trigger] to struct {
+  "cubi:using_item_stop"?: struct {
+    enable?: boolean,
+    function?: #[id="function"] string
+  },
+  "cubi:using_item_start"?: struct {
+    enable?: boolean,
+    function?: #[id="function"] string
+  },
+  "cubi:player_hurt_entity"?: struct {
+    enable?: boolean,
+    function?: #[id="function"] string
+  },
+  "cubi:player_interacted_with_interaction"?: struct {
+    enable?: boolean,
+    function?: #[id="function"] string
+  }
+}
+
+// dispatch minecraft:loot_function[set_custom_data] to struct SetCustomData {
+// 	tag: CustomData,
+// 	...Conditions,
+// }

@@ -1,0 +1,1 @@
+$playsound cubi:plane_engine ambient @a[distance=..16] ~ ~ ~ 1 $(volume)

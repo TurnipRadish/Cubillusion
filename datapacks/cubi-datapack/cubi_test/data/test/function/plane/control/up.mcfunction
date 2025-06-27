@@ -1,8 +1,14 @@
-## 上升
-execute if score @s plane_v > #plane_v_takeoff var run scoreboard players add @s plane_vy 15
-execute if score @s plane_v > #plane_v_takeoff var run title @p[distance=..1] actionbar "上升中"
+# scoreboard players operation @s plane_rx += #plane_rx_delta var
+execute if score @s plane_vy < #plane_vy_min var run return fail
 
-execute if score @s plane_ry matches 500.. run scoreboard players set @s plane_ry 500
+execute store result score #temp var run data get entity @p[distance=..1] Rotation[1] 1000
+execute store result score #temp1 var run data get entity @s Rotation[1] 1000
+scoreboard players operation #temp var -= #temp1 var
+scoreboard players operation #temp var /= #1000 var
+scoreboard players operation #temp var /= #10 var
 
-# execute if score @s plane_vy matches 1.. store result entity @s Motion[1] double 0.001 run scoreboard players get @s plane_vy
+title @a title {score:{name:"#temp", objective:"var"}}
 
+execute if score #plane_vy_delta var matches ..10 run scoreboard players operation #plane_vy_delta var = #temp var
+
+scoreboard players operation @s plane_vy -= #plane_vy_delta var

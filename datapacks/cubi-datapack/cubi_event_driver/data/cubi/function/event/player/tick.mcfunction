@@ -1,4 +1,5 @@
 # 事件触发 - 开始
+## 玩家动作刻
 function cubi:player/tick
 ## 使用胡萝卜吊杆
 execute if score @s cubi.player_used_carrot_on_a_stick matches 1 run function cubi:event/player/used_carrot_on_a_stick
@@ -89,6 +90,32 @@ execute if predicate {\
   }\
 } \
 run function cubi:event/player/input/up
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "sprint": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/sprint
+execute if predicate {\
+  "condition":"entity_properties", \
+  "entity": "this",\
+  "predicate":{\
+    "type_specific": {\
+      "type": "player",\
+      "input": {\
+        "sneak": true\
+      }\
+    }\
+  }\
+} \
+run function cubi:event/player/input/sneak
 ## 测试 -飞行器
-execute as @e[tag=cubi.plane_body,distance=..64] run function test:plane/tick
+# execute as @e[tag=cubi.plane_body,distance=..64] run function test:plane/tick
 # 事件触发 - 结束

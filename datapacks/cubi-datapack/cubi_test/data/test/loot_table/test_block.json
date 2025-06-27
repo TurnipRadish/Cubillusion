@@ -3,27 +3,11 @@
     {
       "function": "set_custom_data",
       "tag": {
-        "id": "cubi:cubi_crafter"
-      }
-    },
-    {
-      "function": "set_components",
-      "components": {
-        "entity_data": {
-          "id": "item_frame",
-          "Invisible": true,
-          "Fixed": true,
-          "Item": {
-            "id": "stone",
-            "components": {
-              "item_model": "cubi:cubi_crafter"
-            }
-          },
-          "Tags": [
-            "cubi.fake_block"
-          ],
-          "data": {
-            "id": "cubi:vase"
+        "id": "cubi:test",
+        "cubi:event_trigger": {
+          "cubi:using_item_start": {
+            "enable": true,
+            "function": "test:block/test/player_placed"
           }
         }
       }
@@ -31,7 +15,18 @@
     {
       "function": "set_components",
       "components": {
-        "item_model": "cubi:cubi_crafter"
+        "!max_damage": {},
+        "!damage": {},
+        "max_stack_size": 64,
+        "consumable": {
+          "animation": "none",
+          "consume_seconds": 1000000,
+          "sound": {
+            "sound_id": "block.water.ambient",
+            "range": 1000
+          }
+        },
+        "item_model": "cubi:wooden_seat"
       }
     }
   ],
@@ -41,7 +36,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "item_frame"
+          "name": "stick"
         }
       ]
     }
