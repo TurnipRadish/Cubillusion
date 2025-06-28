@@ -8,6 +8,11 @@ struct MyQuest {
 	reward_item?: ItemStack,
 }
 
+struct CubiEvent {
+  enable?: boolean,
+  function?: #[id="function"] string
+}
+
 dispatch minecraft:storage[example:quests] to struct QuestsStorage {
 	available: [MyQuest],
 }
@@ -27,25 +32,13 @@ dispatch minecraft:storage[cubi:entity] to struct CubiEntityFactory {
 
 #[since="1.21.6"]
 dispatch mcdoc:custom_data[cubi:event_trigger] to struct {
-  "cubi:using_item_stop"?: struct {
-    enable?: boolean,
-    function?: #[id="function"] string
-  },
-  "cubi:using_item_start"?: struct {
-    enable?: boolean,
-    function?: #[id="function"] string
-  },
-  "cubi:player_hurt_entity"?: struct {
-    enable?: boolean,
-    function?: #[id="function"] string
-  },
-  "cubi:player_interacted_with_interaction"?: struct {
-    enable?: boolean,
-    function?: #[id="function"] string
-  }
+  "cubi:using_item_stop"?: CubiEvent,
+  "cubi:using_item_start"?: CubiEvent,
+  "cubi:player_hurt_entity"?: CubiEvent,
+  "cubi:player_interacted_with_interaction"?: CubiEvent,
+  "cubi:placed_item_on_block"?: CubiEvent,
 }
 
-// dispatch minecraft:loot_function[set_custom_data] to struct SetCustomData {
-// 	tag: CustomData,
-// 	...Conditions,
+// dispatch mcdoc:custom_data[cubi:placeable] to struct {
+//   "function"
 // }

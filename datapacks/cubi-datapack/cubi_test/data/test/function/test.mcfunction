@@ -1,0 +1,3 @@
+data modify storage cubi:data args.id set value 'item'
+data modify storage cubi:data args.nbt set value {Item:{components:{"minecraft:consumable":{animation:"none",consume_seconds:1000000.0f,sound:{range:1000.0f,sound_id:"minecraft:block.water.ambient"}},"minecraft:custom_data":{"cubi:event_trigger":{"cubi:using_item_start":{enable:1b,function:"test:block/test/player_placed"}},id:"cubi:test"},"minecraft:item_model":"cubi:wooden_seat"},count:1,id:"minecraft:stick"},Motion:[0.028d,0.266d,0.009000000000000001d]}
+function cubi:macro/summon with storage cubi:data args

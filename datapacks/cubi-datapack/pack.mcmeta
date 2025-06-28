@@ -12,31 +12,31 @@
     "entries": [
       {
         "directory": "cubi_base",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_event_driver",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_interface",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_item",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_player",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_entity",
-        "formats": 80
+        "formats": [80, 1000]
       },
       {
         "directory": "cubi_test",
-        "formats": 80
+        "formats": [80, 1000]
       }
     ]
   }

@@ -11,4 +11,7 @@ scoreboard objectives add cubi.player_sprint minecraft.custom:sprint_one_cm
 scoreboard objectives add cubi.player_sprint_last dummy
 scoreboard objectives add cubi.player_walk minecraft.custom:walk_one_cm
 scoreboard objectives add cubi.player_walk_last dummy
+
+scoreboard objectives add cubi.weapon_flag dummy
+
 function cubi:event/player/load

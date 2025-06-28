@@ -7,7 +7,11 @@
         "cubi:event_trigger": {
           "cubi:using_item_start": {
             "enable": true,
-            "function": "test:block/test/player_placed"
+            "function": "cubi:event/player/placed_item_on_block"
+          },
+          "cubi:placed_item_on_block": {
+            "enable": true,
+            "function": "test:block/test/init/0"
           }
         }
       }

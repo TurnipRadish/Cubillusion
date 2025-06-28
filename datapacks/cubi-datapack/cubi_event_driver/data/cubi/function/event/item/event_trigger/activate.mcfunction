@@ -1,5 +1,17 @@
-$tellraw @s[tag=debug] "activated item event = $(id)"
+$execute if items entity @s weapon.mainhand *[custom_data~\
+{\
+  'cubi:event_trigger':  {\
+    '$(id)': {\
+      enable: true\
+    }\
+  }\
+}] run return run function cubi:event/item/event_trigger/activate_mainhand {id:'$(id)'}
 
-data modify storage cubi:data args.item set from entity @s SelectedItem
-
-$function cubi:macro/function with storage cubi:data args.item.components.'minecraft:custom_data'.'cubi:event_trigger'.'$(id)'
+$execute if items entity @s weapon.offhand *[custom_data~\
+{\
+  'cubi:event_trigger':  {\
+    '$(id)': {\
+      enable: true\
+    }\
+  }\
+}] run return run function cubi:event/item/event_trigger/activate_offhand {id:'$(id)'}
