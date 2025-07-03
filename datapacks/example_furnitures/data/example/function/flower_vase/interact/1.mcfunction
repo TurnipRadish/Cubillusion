@@ -7,7 +7,7 @@ summon block_display ~ ~ ~ {\
     0f, 0f, 0f, 1f\
   ]\
 }
-say @s
+
 execute on target run function cubi:player/weapon/get_for_args
 
 data modify entity @n[type=block_display,distance=..0.1] block_state.Name set from storage cubi:data args.item.id

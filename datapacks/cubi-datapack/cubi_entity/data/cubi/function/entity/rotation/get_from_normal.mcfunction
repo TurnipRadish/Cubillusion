@@ -1,0 +1,6 @@
+execute if score #normal_z var matches 1 run return run data modify storage cubi:data args.rotation set value [0f, 0f]
+execute if score #normal_z var matches -1 run return run data modify storage cubi:data args.rotation set value [180f, 0f]
+execute if score #normal_x var matches 1 run return run data modify storage cubi:data args.rotation set value [-90f, 0f]
+execute if score #normal_x var matches -1 run return run data modify storage cubi:data args.rotation set value [90f, 0f]
+execute if score #normal_y var matches 1 run return run data modify storage cubi:data args.rotation set value [0f, -90f]
+execute if score #normal_y var matches -1 run return run data modify storage cubi:data args.rotation set value [0f, 90f]

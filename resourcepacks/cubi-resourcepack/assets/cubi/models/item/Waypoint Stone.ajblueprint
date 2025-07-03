@@ -1,0 +1,169 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.7.3",
+		"uuid": "980a40c4-a225-e3d2-9143-7698cdfe5405",
+		"save_location": "D:\\MC\\.minecraft\\resourcepacks\\cubi-rp\\assets\\cubi\\models\\item\\Waypoint Stone.ajblueprint",
+		"last_used_export_namespace": ""
+	},
+	"blueprint_settings": {
+		"export_namespace": "example_waypoint_stone",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_versions": ["1.21.5"],
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "D:\\MC\\.minecraft\\saves\\对话框25w21a\\resourcepacks\\aj-resourcepack",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "D:\\MC\\.minecraft\\saves\\对话框25w21a\\datapacks\\aj-datapack",
+		"summon_commands": "",
+		"remove_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 64,
+		"height": 64
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, -6],
+			"to": [6, 4, 6],
+			"autouv": 0,
+			"color": 3,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 24, 12, 28],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 28, 12, 32],
+					"texture": 0
+				},
+				"south": {
+					"uv": [28, 0, 40, 4],
+					"texture": 0
+				},
+				"west": {
+					"uv": [28, 4, 40, 8],
+					"texture": 0
+				},
+				"up": {
+					"uv": [12, 12, 0, 0],
+					"texture": 0
+				},
+				"down": {
+					"uv": [12, 12, 0, 24],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "2bd100d6-3ede-8e9a-0630-b85764449ca8"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4, 4, -4],
+			"to": [4, 15, 4],
+			"autouv": 0,
+			"color": 4,
+			"origin": [0, 4, 0],
+			"faces": {
+				"north": {
+					"uv": [12, 0, 20, 11],
+					"texture": 0
+				},
+				"east": {
+					"uv": [12, 11, 20, 22],
+					"texture": 0
+				},
+				"south": {
+					"uv": [20, 0, 28, 11],
+					"texture": 0
+				},
+				"west": {
+					"uv": [20, 11, 28, 22],
+					"texture": 0
+				},
+				"up": {
+					"uv": [20, 30, 12, 22],
+					"texture": 0
+				},
+				"down": {
+					"uv": [28, 22, 20, 30],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "a3eb3003-c278-814c-3a20-a958919cf062"
+		}
+	],
+	"outliner": ["2bd100d6-3ede-8e9a-0630-b85764449ca8", "a3eb3003-c278-814c-3a20-a958919cf062"],
+	"textures": [
+		{
+			"path": "",
+			"name": "waypoint_stone",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": true,
+			"saved": false,
+			"uuid": "dc3558ff-3473-cc52-9900-5bb3b4d6f284",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAfNJREFUeF7tmL1KA1EQhe9WCrEzmJWIGBR8hfQ+gjZilQewkFilsLUxWlhrShG0ECy1zwPYCII/GNhIBAtTBARlQgoJuzc7IwnJ8WyZO7Nhvjl3ZnaC67vnb6d4zqJZr/VJYU/xtsGm08uHwWAru0UgAIorC6neUH94dQJgKczE2j9FbScApvKrseedxn3396TzfiexJwBEBaSSW88ITgFf51lN/G6mUsGqAQIgU1hMBaH9+EIAkApIlf6eERyAYRc1DVyxHfkcAAHAR3nQJDiWADSyOcpeeM2vTjve82HfaU0s3SuwXtpVfQt87M+7Ym4u9n/qzTcnAJLa3CjamglAPhem8ms0I0cAVACvAGsAiyC7ANvg/54DfEPDRE6CmkGoVN72Dk216rH3/LJ2MNQNT6qJ7peRehQWAElbZNkaC4AkoDJJjh2ArZtP1bfAZviOByBpz98vJ9n7EwCiAjSFA04Ba1FVVQN2WhtYNUAAJM32/cqQhYcA8D0T1wa1AG7D8lj1cc31jbMNtFcADsBfCU66P5ScLckgAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JB8qACmbllioAAs1JJ8floDNUKYMRpEAAAAASUVORK5CYII="
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "d74ab9a2-b301-7413-cab2-e5989bf1d8ab",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [],
+	"animation_controllers": []
+}

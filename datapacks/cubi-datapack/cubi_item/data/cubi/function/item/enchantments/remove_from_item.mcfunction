@@ -1,9 +1,9 @@
-data modify storage cubi:components temp.id set value 'minecraft:enchantments'
-data modify storage cubi:components temp.content set from storage cubi:data item.components.'minecraft:enchantments'
-data modify storage cubi:components temp.slot set from storage cubi:data item.slot
+data modify storage cubi:components args.id set value 'minecraft:enchantments'
 
-$data remove storage cubi:components temp.content.$(id)
+data modify storage cubi:components args.content set from storage cubi:data args.item.components.'minecraft:enchantments'
 
-function cubi:macro/remove_specific_components with storage cubi:components temp
+data modify storage cubi:components args.slot set from storage cubi:data args.item.slot
 
-function cubi:macro/set_specific_components with storage cubi:components temp
+$data remove storage cubi:components args.content.$(id)
+
+function cubi:macro/remove_specific_components with storage cubi:components args

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "cubi:triticin": {
+    "cubi:interacted_with_interaction": {
       "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {

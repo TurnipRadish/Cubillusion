@@ -1,0 +1,1 @@
+data modify storage cubi:data args.transformation.left_rotation set value [0f, 0.7071f, 0f, -0.7071f]

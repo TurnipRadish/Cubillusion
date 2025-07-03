@@ -19,8 +19,6 @@ scoreboard players operation #temp var /= #3 var
 # 输出结果
 scoreboard players operation @s cubi.roller_dir = #temp2 var
 scoreboard players operation @s cubi.roller_dir += #temp var
-# execute if score @s cubi.roller_dir matches 1.. run say r
-# execute if score @s cubi.roller_dir matches ..-1 run say l
 # 处理采样数组
 scoreboard players add #cubi.coller_dir_array_idx var 1
 execute if score #cubi.coller_dir_array_idx var matches 3.. run scoreboard players set #cubi.coller_dir_array_idx var 0

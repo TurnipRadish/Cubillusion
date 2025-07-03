@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "model",
+    "model": "cubi:item/placed_potion",
+    "tints": [
+      {
+        "type": "potion",
+        "default": 6911
+      }
+    ]
+  }
+}

@@ -1,12 +1,7 @@
 $summon item_display ~ ~ ~ {\
   "Tags": ["cubi.entity", "example.amethyst_light"],\
   "item": $(item),\
-  "transformation": {\
-    translation:[0f,0.5f,0f],\
-    left_rotation:$(rotation),\
-    scale:[1f,1f,1f],\
-    right_rotation:[0f,0f,0f,1f]\
-  }\
+  "transformation": $(transformation)\
 }
 
 summon interaction ~ ~ ~ {\

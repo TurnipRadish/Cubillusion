@@ -1,13 +1,18 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
-		"cubi": {
+		"example_floor_clock": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
-				"assets/animated_java/items/blueprint/cubi/bone.json",
+				"assets/animated_java/items/blueprint/example_floor_clock/bone.json",
+				"assets/animated_java/items/blueprint/example_floor_clock/bone1.json",
+				"assets/animated_java/items/blueprint/example_floor_clock/bone2.json",
 				"assets/animated_java/items/empty.json",
-				"assets/animated_java/models/blueprint/cubi/bone.json",
-				"assets/animated_java/models/empty.json"
+				"assets/animated_java/models/blueprint/example_floor_clock/bone.json",
+				"assets/animated_java/models/blueprint/example_floor_clock/bone1.json",
+				"assets/animated_java/models/blueprint/example_floor_clock/bone2.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/example_floor_clock/floor_clock.png"
 			]
 		}
 	}

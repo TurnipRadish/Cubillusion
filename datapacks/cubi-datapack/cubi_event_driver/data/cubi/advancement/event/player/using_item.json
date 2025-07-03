@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "cubi:triticin": {
+    "cubi:using_item": {
       "trigger": "using_item",
       "conditions": {}
     }

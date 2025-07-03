@@ -1,3 +1,11 @@
-data modify storage cubi:data args.id set value 'item'
-data modify storage cubi:data args.nbt set value {Item:{components:{"minecraft:consumable":{animation:"none",consume_seconds:1000000.0f,sound:{range:1000.0f,sound_id:"minecraft:block.water.ambient"}},"minecraft:custom_data":{"cubi:event_trigger":{"cubi:using_item_start":{enable:1b,function:"test:block/test/player_placed"}},id:"cubi:test"},"minecraft:item_model":"cubi:wooden_seat"},count:1,id:"minecraft:stick"},Motion:[0.028d,0.266d,0.009000000000000001d]}
-function cubi:macro/summon with storage cubi:data args
+data modify storage aj:temp args.animation set value {}
+
+execute store result score #temp var run time query daytime
+scoreboard players set const var 20
+scoreboard players operation #temp var %= #const var
+
+execute store result storage aj:temp args.frame int 1 run scoreboard players get #temp var
+data modify storage aj:temp args.animation set value "update"
+data modify storage aj:temp args.start_animation set value true
+
+function animated_java:example_floor_clock/summon with storage aj:temp {}

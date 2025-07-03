@@ -2,6 +2,10 @@ tellraw @s[tag=debug] "start using item"
 
 # 事件触发 - 开始
 # function cubi:event/item/event_trigger/activate {id:'cubi:using_item_start'}
+summon marker ~ ~ ~ {Tags:["test"]}
+data modify entity @n[distance=..1,type=marker,tag=test] data set from entity @s {}
+
+scoreboard players set @s cubi.weapon_flag 0
 
 execute if items entity @s weapon.mainhand *[custom_data~\
 {\
@@ -10,7 +14,7 @@ execute if items entity @s weapon.mainhand *[custom_data~\
       enable: true\
     }\
   }\
-}] run return run function cubi:event/item/event_trigger/activate_mainhand {id:'cubi:using_item_start'}
+}] run scoreboard players set @s cubi.weapon_flag 1
 
 execute if items entity @s weapon.offhand *[custom_data~\
 {\
@@ -19,7 +23,12 @@ execute if items entity @s weapon.offhand *[custom_data~\
       enable: true\
     }\
   }\
-}] run return run function cubi:event/item/event_trigger/activate_offhand {id:'cubi:using_item_start'}
+}] run scoreboard players set @s cubi.weapon_flag -1
 
+function cubi:player/weapon/get_for_args_from_marker
+
+execute unless score @s cubi.weapon_flag matches 0 run function cubi:macro/function with storage cubi:data args.item.components.'minecraft:custom_data'.'cubi:event_trigger'.'cubi:using_item_start'
 
 # 事件触发 - 结束
+
+kill @n[distance=..1,type=marker,tag=test]

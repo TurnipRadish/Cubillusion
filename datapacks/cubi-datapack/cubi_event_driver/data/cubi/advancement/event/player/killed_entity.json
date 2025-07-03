@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "cubi:triticin": {
+    "cubi:killed_entity": {
       "trigger": "player_killed_entity",
       "conditions": {}
     }

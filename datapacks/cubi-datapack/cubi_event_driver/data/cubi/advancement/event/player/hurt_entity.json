@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "cubi:triticin": {
+    "cubi:hurt_entity": {
       "trigger": "player_hurt_entity",
       "conditions": {}
     }

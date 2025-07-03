@@ -34,4 +34,7 @@ execute if predicate cubi:player/is_sprinting run function cubi:event/player/inp
 execute if predicate cubi:player/is_sneaking run function cubi:event/player/input/sneak
 ## 测试 -飞行器
 # execute as @e[tag=cubi.plane_body,distance=..64] run function test:plane/tick
+
+function example:player_tick
+
 # 事件触发 - 结束

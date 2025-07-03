@@ -1,4 +1,3 @@
-say 2
 data modify storage cubi:data args set value {}
 data modify storage cubi:data args.id set value 'item'
 

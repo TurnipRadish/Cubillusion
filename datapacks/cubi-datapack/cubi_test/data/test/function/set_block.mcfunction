@@ -1,4 +1,4 @@
-# execute if entity @s[y_rotation=-180..-90] run say -2
+
 
 # north
 execute if entity @p[y_rotation=135..-135] run scoreboard players set #block_facing var 0

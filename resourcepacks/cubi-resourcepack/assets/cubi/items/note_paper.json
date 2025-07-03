@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "model",
+      "model": "cubi:item/note_paper_1"
+    },
+    "cases": [
+      {
+        "when": "2",
+        "model": {
+          "type":  "model",
+          "model": "cubi:item/note_paper_2"
+        }
+      },
+      {
+        "when": "3",
+        "model": {
+          "type":  "model",
+          "model": "cubi:item/note_paper_3"
+        }
+      }
+    ] 
+  }
+}
