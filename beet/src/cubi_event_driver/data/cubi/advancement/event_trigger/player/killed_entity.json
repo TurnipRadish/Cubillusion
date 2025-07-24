@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "cubi:killed_entity": {
+      "trigger": "player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "cubi:event_trigger/player/killed_entity"
+  }
+}

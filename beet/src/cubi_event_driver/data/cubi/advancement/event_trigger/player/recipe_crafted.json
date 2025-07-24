@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "cubi:recipe_crafted": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "stick"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cubi:event_trigger/player/recipe_crafted"
+  }
+}

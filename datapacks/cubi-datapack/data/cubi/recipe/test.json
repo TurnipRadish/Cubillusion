@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "iron_ingot",
+  "base": "iron_chestplate",
+  "template": "iron_ingot",
+  "pattern": {
+    "description": "test",
+    "asset_id": "item/apple"
+  }
+}

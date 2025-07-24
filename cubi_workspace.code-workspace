@@ -1,11 +1,14 @@
 {
 	"folders": [
-		{
-			"path": "datapacks"
-		},
-		{
-			"path": "resourcepacks"
-		}
-	],
+    {
+      "path": "datapacks"
+    },
+    {
+      "path": "resourcepacks"
+    },
+    {
+      "path": "beet"
+    }
+  ],
   "settings": {}
 }

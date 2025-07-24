@@ -1,0 +1,1 @@
+execute as @a at @s run function cubi_event:event_trigger/player/tick

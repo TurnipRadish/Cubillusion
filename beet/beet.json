@@ -1,0 +1,11 @@
+{
+  "name": "Cubi Event Driver",
+  "description": "Cubi event module",
+
+  "data_pack": {
+    "load": ["src/cubi_event_driver"]
+  },
+  "pipeline": [
+    "plugins.test2.document_function_extractor"
+  ]
+}

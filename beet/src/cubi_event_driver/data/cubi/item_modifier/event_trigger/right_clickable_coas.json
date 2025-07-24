@@ -1,0 +1,14 @@
+[
+  {
+    "function": "set_item",
+    "item": "carrot_on_a_stick"
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "!max_damage": {},
+      "!damage": {},
+      "max_stack_size": 64
+    }
+  }
+]

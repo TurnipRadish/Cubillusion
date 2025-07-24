@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "cubi:using_item": {
+      "trigger": "using_item",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "cubi:event_trigger/player/using_item"
+  }
+}

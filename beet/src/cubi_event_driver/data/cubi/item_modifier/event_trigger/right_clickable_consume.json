@@ -1,0 +1,15 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "consumable": {
+        "consume_seconds": 1000000,
+        "has_consume_particles": false,
+        "sound": {
+          "sound_id": "ambient.basalt_deltas.additions",
+          "range": 0
+        }
+      }
+    }
+  }
+]

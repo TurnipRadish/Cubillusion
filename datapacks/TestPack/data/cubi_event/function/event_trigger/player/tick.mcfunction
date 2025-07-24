@@ -1,0 +1,1 @@
+tellraw @s[tag=debug_tick] "ticking"
